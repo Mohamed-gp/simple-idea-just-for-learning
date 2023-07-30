@@ -32,6 +32,7 @@ body {
 .input {
   padding: 5px 10px;
   padding-right: 40px;
+
 }
 .input:focus {
   outline: none;
