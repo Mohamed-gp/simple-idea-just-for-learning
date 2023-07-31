@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgb(49, 21, 0);
+  position: relative;
+  padding: 20px 10px;
+
+}
+.container > p{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 10px;
+}
+.container > i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  right: 20px;
+  cursor: pointer;
+}
+ul{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 5px 5px;
+  background-color: rgba(0, 0, 0, 0.361);
+  display: none;
+}
+li{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  z-index: 100;
+}
+li i{
+  font-size: 25px;
+}
+.facebook{
+  color: #1778f2;
+}
+.youtube{
+  color: red;
+}
+.linkedin{
+  color: #0A66C2;
+}
+
+ul li:hover{
+  background-color: #ffffff72;
+}
+
+#up {
+  display: none;
+  z-index: 1000;
+}
+#down{
+  z-index: 1000;
+
+}
+.container p li{
+  padding: 0;
+}

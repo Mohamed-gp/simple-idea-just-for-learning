@@ -1,0 +1,43 @@
+[
+{
+  "files.autoSave": "afterDelay",
+
+  "code-runner.runInTerminal": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.useLocalIp": true,
+  "livePreview.customExternalBrowser": "Chrome",
+  "editor.guides.bracketPairs": "active",
+  "easycode.userEmail": "mohamdterba6@gmail.com",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "css"
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.outputMode": "In View",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "editor.suggest.showValues": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code"
+},
+{
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  }
+}
+]
