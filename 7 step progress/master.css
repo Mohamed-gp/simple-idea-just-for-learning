@@ -5,16 +5,29 @@
   font-family: 'Open Sans', sans-serif;
 }
 body{
-  /* background-color: yellow; */
+  background-color: rgb(115, 66, 66);
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index: -1;
   position: relative;
+  flex-direction: column;
+}
+.title{
+  font-size: 30px;
+  color: white;
+  background-color: green;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  /* margin-bottom: 20px; */
 }
 .container{
-  width: 350px;
+  width: 500px;
   background-color: rgba(0, 0, 0, 0.386);
   z-index: -22;
   padding: 20px;
@@ -75,7 +88,7 @@ body{
   transition-duration: .5s;
 }
 .container .progress span i{
-  color: rgb(111, 70, 70);
+  color: red;
   font-size: 20px;
 }
 .container .move{
@@ -105,4 +118,46 @@ body{
 }
 .left{
   opacity: .5;
+}
+.html,.css,.js,.tailwind,.react{
+  position: absolute;
+  top: -80px;
+  background-color: rgba(159, 210, 255, 0.493);
+  padding: 9px;
+  color: white;
+  width: 90px;
+  text-align: center;
+  transition-duration: .5s;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.html{
+  background-color: green;
+}
+.arrow-down{
+  position: absolute;
+  content: '';
+  border: 15px solid;
+  border-color: rgba(159, 210, 255, 0.493) transparent transparent transparent;
+  top: -40px;
+  transition-duration: .5s;
+}
+span:first-of-type .arrow-down{
+  border-top-color: green;
+}
+.congratulations{
+  font-size: 30px;
+  color: white;
+  background-color: green;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition-duration: .5s;
+  display: none;
 }
